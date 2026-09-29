@@ -24,6 +24,7 @@ Stellar-K8s/
 ├── examples/            Ready-to-use StellarNode manifests
 ├── monitoring/          Grafana dashboards and Prometheus alert rules
 ├── policy/              CEL and OPA policies
+├── rpc-gateway/         WASM compilation cache for the Soroban RPC gateway
 ├── schemas/             JSON schemas
 ├── scripts/             Operational scripts
 │   ├── ci/              CI helper scripts

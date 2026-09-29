@@ -1,0 +1,19 @@
+[package]
+name = "stellar-rpc-gateway"
+version = "0.1.0"
+edition = "2021"
+license = "Apache-2.0"
+description = "WebAssembly module caching layer for the Soroban RPC gateway"
+
+[dependencies]
+lru = "0.12"
+thiserror = "1"
+wasmtime = "24.0.7"
+
+[dev-dependencies]
+wat = "1.246"
+
+[[bench]]
+name = "wasm_cache"
+harness = false
+test = false
